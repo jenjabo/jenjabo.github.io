@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
- color: white;
+ color: black;
  font-family: 'Roboto', sans-serif;
 }
  
@@ -31,7 +31,7 @@ p{
 
 /* NAV BAR */
 .navBar {
-	background-color: #264D34;
+	background-color: grey;
 	display: flex;
 		align-content: center;
 		justify-content: flex-end;
