@@ -51,5 +51,40 @@
 <!-- CONTENT SECTIONS -->
 	<p>Upload your csv file here:</p>
 
+<!-- BEGINNING OF SUGGESTIONS FORM -->
+
+	<form class="text" style="color:black">
+
+		<label class="labelClass"> Enter the name of the show you would like to add:  </label>
+        <input type= "text" class= "fav_show">
+    <br>
+		<label class="labelClass" for="myfile">Add 5 files of pictures you think best represent the show  (Pro Tip: search "show name" aesthetic on Pinterest)</label><br>
+		<input class="files" type="file" id="myfile1" class="favShowImages"><br>
+		<input class="files" type="file" id="myfile2" class="favShowImages"><br>
+		<input class="files" type="file" id="myfile3" class="favShowImages"><br>
+		<input class="files" type="file" id="myfile4" class="favShowImages"><br>
+		<input class="files" type="file" id="myfile5" class="favShowImages"><br>
+<br>
+    <label class="labelClass">Insert the Spotify link to the song you think best represents this show:  </label>
+        <input type= "text" class= "favShowSong"> 
+<br><br>
+    <input type= "submit" class= "submit-button">
+    <input type="button" class="reset-button" value="Reset" onClick="window.location.reload()">
+
+  </form>
+<!-- END OF SUGGESTIONS FORM -->
+
+<!-- EMPTY SECTION TAG FOR SUGGESTIONS TO BE STORED IN -->
+  <section class="suggestion-container">
+  </section>
+<!-- EMPTY SECTION FOR SUGGESTIONS TO BE STORED IN -->
+
+		<script src="script.js"></script>
+
   </body>
+
 </html>
+
+
+
+
