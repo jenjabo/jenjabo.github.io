@@ -1,5 +1,6 @@
 /* GENERAL */
 body {
+ background-color: grey;
  color: black;
  font-family: 'Roboto', sans-serif;
 }
@@ -38,7 +39,7 @@ p{
 	padding-right: 4%;
 }
 
-.navBar:hover{
+.navBar: hover{
 	background: rgb(33, 66, 46);
 	transition-duration: 1s
 }
