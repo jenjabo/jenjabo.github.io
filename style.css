@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
- background-color: grey;
+ background-color: light grey;
  color: black;
  font-family: 'Roboto', sans-serif;
 }
@@ -40,7 +40,7 @@ p{
 }
 
 .navBar: hover{
-	background: rgb(33, 66, 46);
+	background: white;
 	transition-duration: 1s
 }
 
@@ -53,14 +53,14 @@ ul{
 }
 
 li{
-	color: white;
+	color: black;
 	cursor: pointer;
 	display: inline;
 }
 
 li a{
 	text-decoration: none;
-	color:white;
+	color: black;
 	padding: 1em;
 }
 
