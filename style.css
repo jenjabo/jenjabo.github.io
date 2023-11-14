@@ -1,0 +1,73 @@
+/* GENERAL */
+body {
+	background-image: url("/home/background.png");
+ 	background-position: center;
+  background-repeat:repeat-y;
+  background-size:contain; 
+ /* background: #30261f;*/
+ color: white;
+ font-family: 'Roboto', sans-serif;
+}
+ 
+
+h1 {
+	display: block;
+	text-align: center;
+	padding-left: 5%;
+ 	padding-right: 5%;
+	font-family: 'Prata', serif;
+	font-size: 30pt
+}
+
+h2{
+	font-family: 'Prata', serif;
+	
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* NAV BAR */
+.navBar {
+	background-color: #264D34;
+	display: flex;
+		align-content: center;
+		justify-content: flex-end;
+	padding-right: 4%;
+}
+
+.navBar:hover{
+	background: rgb(33, 66, 46);
+	transition-duration: 1s
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	display: flex;
+		justify-content: flex-end;
+	padding: 1%;
+}
+
+li{
+	color: white;
+	cursor: pointer;
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
+	color:white;
+	padding: 1em;
+}
+
+a{
+	width: 2%;
+}
