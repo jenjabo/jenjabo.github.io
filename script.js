@@ -7,3 +7,5 @@ function showType(fileInput) {
     alert('Filename: ' + name + ' , Type: ' + type);
   }
 }
+
+submit-btn.alert("Thank you for submitting your file.");
