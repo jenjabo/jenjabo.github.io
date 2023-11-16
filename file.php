@@ -9,6 +9,6 @@ file_uploads = On
       <input type="file" name="fileToUpload" id="fileToUpload">
       <input type="submit" value="Upload CSV" name="submit">
     </form>
-
+  
   </body>
 </html>
