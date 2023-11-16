@@ -51,8 +51,9 @@
   <!-- File Uploader HTML-->
 <form action="fileupload.php" enctype="multipart/form-data" method="post">
 	<label class="custom-uploader" for="file">Upload Your File</label> 
-	<input id="file" accept=".csv" name="fileToUpload" type="file" /> 
-	<button class="btn btn-success" name="submit" type="submit"> Upload File </button></form>
+	<input id="file" accept=".csv" name="fileToUpload" type="file" multiple onchange="showType(this)/>
+	<button class= "btn btn-success" name="submit" type="submit"> Upload File </button> 
+</form>
 
 <!-- EMPTY SECTION TAG FOR SUGGESTIONS TO BE STORED IN -->
   <section class="suggestion-container">
