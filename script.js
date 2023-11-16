@@ -11,4 +11,4 @@ function showType(fileInput) {
 var submitbtn = $('.submitbtn')
 submitbtn.on("click", show)
 function show() {
-  alert(`Thank you, we will add "${fav_show}" to our list!`)
+  alert(`Thank you for your upload`)
