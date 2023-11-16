@@ -8,4 +8,4 @@ function showType(fileInput) {
   }
 }
 
-submit-btn.alert("Thank you for submitting your file.");
+submitbtn.alert("Thank you for submitting your file.");
