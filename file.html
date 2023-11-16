@@ -48,18 +48,11 @@
 
 
 <!-- CONTENT SECTIONS -->
-
-	<form class="text" style="color:black">
-		<p>Upload your csv file here:</p>
-
-<br>
-		<input class="files" type="file" id="myfile" class="csvfile" required>
-
-<br><br>
-    <input type= "submit" class= "submit-button">
-    <input type= "button" class="reset-button" value="Reset" onClick="window.location.reload()">
-
-  </form>
+  <!-- File Uploader HTML-->
+<form action="fileupload.php" enctype="multipart/form-data" method="post">
+	<label class="custom-uploader" for="file">Upload Your File</label> 
+	<input id="file" accept=".csv" name="fileToUpload" type="file" /> 
+	<button class="btn btn-success" name="submit" type="submit"> Upload File </button></form>
 
 <!-- EMPTY SECTION TAG FOR SUGGESTIONS TO BE STORED IN -->
   <section class="suggestion-container">
